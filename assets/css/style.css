@@ -1122,14 +1122,14 @@ section {
 }
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 160px;
   border-radius: 50%;
 }
 .team .member .pic img {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0s;
 }
 .team .member:hover img {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .team .member .member-info {
   padding-left: 30px;
