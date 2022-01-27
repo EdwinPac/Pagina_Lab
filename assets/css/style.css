@@ -578,7 +578,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 140px 0;
+  padding: 15px 0;
   background: url("../img/about-bg.png") top center no-repeat;
   position: relative;
 }
