@@ -944,7 +944,7 @@ section {
 .cta p {
   color: #fff;
 }
-.cta .cta-btn {
+.cta .cta-text {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -1122,8 +1122,8 @@ section {
 }
 .team .member .pic {
   overflow: hidden;
-  width: 160px;
-  border-radius: 50%;
+  width: 150px;
+  border-radius: 60%;
 }
 .team .member .pic img {
   transition: ease-in-out 0s;
@@ -2086,4 +2086,35 @@ section {
 }
 #footer .credits a {
   color: #f6b024;
+}
+
+table {     
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 12px;    
+  margin: 45px;     
+  width: 480px; 
+  text-align: center;    
+  border-collapse: collapse;
+  align-content: center;
+}
+
+th {     
+  font-size: 13px;     
+  font-weight: normal;     
+  padding: 8px;     
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;    
+  border-bottom: 1px solid #fff; 
+  color: #039; }
+
+td {    
+  padding: 8px;     
+  background: #e8edff;     
+  border-bottom: 1px solid #fff;
+  color: #669;    
+  border-top: 1px solid transparent; }
+
+tr:hover td { 
+  background: #d0dafd; 
+  color: #339; 
 }
