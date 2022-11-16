@@ -2088,14 +2088,14 @@ section {
   color: #f6b024;
 }
 
-table.scroll {     
+table {     
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 12px;    
   margin: 45px;     
   width: 1080px; 
   text-align: center;    
   border-collapse: collapse;
-  align-content: center;
+  align-content: auto;
 }
 
 th {     
@@ -2120,5 +2120,6 @@ tr:hover td {
 }
 
 #div1 {
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
