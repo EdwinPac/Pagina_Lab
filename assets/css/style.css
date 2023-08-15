@@ -2088,7 +2088,7 @@ section {
   color: #f6b024;
 }
 
-table {     
+table.scroll {     
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 12px;    
   margin: 45px;     
@@ -2117,9 +2117,4 @@ td {
 tr:hover td { 
   background: #d0dafd; 
   color: #339; 
-}
-
-#div1 {
-  overflow-y: hidden;
-  overflow-x: auto;
 }
