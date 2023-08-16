@@ -930,7 +930,7 @@ section {
 
 /*--------------------------------------------------------------
 # Cta
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .cta {
   background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
@@ -973,11 +973,11 @@ section {
     align-items: center;
     justify-content: flex-end;
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # Portfoio
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .portfoio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -1054,11 +1054,11 @@ section {
 .portfoio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Portfolio Details
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1108,7 +1108,7 @@ section {
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Team
@@ -2105,14 +2105,16 @@ th {
   background: #b9c9fe;
   border-top: 4px solid #aabcfe;    
   border-bottom: 1px solid #fff; 
-  color: #039; }
+  color: #039;
+  align-content: center; }
 
 td {    
   padding: 8px;     
   background: #e8edff;     
   border-bottom: 1px solid #fff;
   color: #669;    
-  border-top: 1px solid transparent; }
+  border-top: 1px solid transparent; 
+  align-content: center;}
 
 tr:hover td { 
   background: #d0dafd; 
