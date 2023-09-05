@@ -580,6 +580,8 @@ section {
 .about {
   /*background: url("../img/about-bg.png") center no-repeat;*/
   position: relative;
+  padding: 15px 0;
+  text-align: justify;
 }
 .about:before {
   content: "";
