@@ -578,11 +578,8 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.png") center no-repeat;
-  background-size: auto;
+  /*background: url("../img/about-bg.png") center no-repeat;*/
   position: relative;
-  max-width: 100%;
-  height: auto;
 }
 .about:before {
   content: "";
@@ -645,7 +642,7 @@ section {
 }
 @media (max-width: 992px) {
   .about {
-    padding: 60px 0;
+    padding: 60px;
   }
 }
 
