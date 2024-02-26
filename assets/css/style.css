@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(3,97,190,0.9);
+  background: rgba(3, 97, 190, 0.9);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
