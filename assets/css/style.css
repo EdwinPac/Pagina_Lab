@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
-  top: 60px;
+  top: 0px;
 }
 #header.header-scrolled {
   background: rgba(3, 97, 190, 0.9);
